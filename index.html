@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <title>RGB to Hex Converter(input)</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">RGB to Hex Converter</h1>
+    <div class="showPanel">
+      <div class="inputPanel">
+        <div class="inputArea">
+          <div class="R-div enterValue">
+            <label for="Label_R">R</label>
+            <input type="text" id="R" name="inputR" class="rgbCode" placeholder="please input 0~255" min="0" max="255">
+          </div>
+          <div class="G-div enterValue">
+            <label for="Label_G">G</label>
+            <input type="text" id="G" name="inputG" class="rgbCode" placeholder="please input 0~255" min="0" max="255">
+          </div>
+          <div class="B-div enterValue">
+            <label for="Label_B">B</label>
+            <input type="text" id="B" name="inputB" class="rgbCode" placeholder="please input 0~255" min="0" max="255">
+          </div>
+        </div>
+        <button type="button">Convert</button>
+      </div>
+      <div class="showHexCode"></div>
+    </div>
+  </div>
+    <script src="./RGBtoHexConverter.js"> </script>
+
+</body>
+</html>

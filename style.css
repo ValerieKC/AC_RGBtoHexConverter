@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Noto Sans TC", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  height: 60px;
+  background-color: #c195ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+.showPanel {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.rgbCode {
+  margin-bottom: 10px;
+}
+
+.inputPanel {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  height: 25px;
+  border-radius: 5px;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  background-color: #11542c;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.showHexCode {
+  width: 60px;
+  height: 115px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
